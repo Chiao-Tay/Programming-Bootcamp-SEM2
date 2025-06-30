@@ -1,17 +1,15 @@
-"""
-Number Guessing Game (1–100)
+# Number Guessing Game
 
-This simple Python game selects a random number between 1 and 100,
-and the player tries to guess it. After each guess, the program tells
-the player if the correct number is higher or lower than their guess.
-It continues until the player gets it right.
+# This simple Python game selects a random number between 1 and 100, and ask the player tries to guess it. 
+# After each guess, the program will tell the player if the user guessed the correct number or 
+# tell them the number is higher or lower than their guess.
+# It continues until the player gets it right.
 
-Intuition:
-The game uses a loop to keep prompting the user for input. Each guess
-is checked against the target number, and a helpful message is printed
-until the correct number is guessed. This teaches loops, conditionals,
-and user input handling in Python.
-"""
+# Intuition:
+# The game uses a loop to keep prompting the user for input. Each guess is checked against the target number, 
+# and a helpful message is printed until the correct number is guessed. 
+# This teaches loops, conditionals,and user input handling in Python.
+
 
 import random  # Import the random module to generate random numbers
 
@@ -66,7 +64,9 @@ def play_guessing_game():
             break  # exit the loop if guessed correctly
 
 def display_welcome_message():
-    """Display the welcome message and game instructions."""
+    """
+    Display the welcome message and game instructions.
+    """
     print("Welcome to the Number Guessing Game!")
     print("Try to guess a number between 1 and 100.")
 
